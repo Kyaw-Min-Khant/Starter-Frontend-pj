@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body style="min-height: 100vh; background-color: rgb(219, 74, 74);">
+    <div class="card">
+        <h4 class="">San kyi tr</h4>
+        <p class="word">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consequatur dolore quam a facere recusandae vitae ducimus, quos commodi illo?</p>
+        <hr>
+        <select name="" style="display: none;" id="font-family">
+            <option value="">San kyi tr</option>
+        </select>
+        <input type="color" id="font-color">
+        <span id="font-color-button"><i class="ri-font-color"></i></span>
+<span id="font-family-button">
+     <i class="ri-font-size-2"></i>
+</span>
+
+    </div>
+    <footer>
+      <div style="background-color: ghostwhite;display:flex;margin: auto; width: max-content;align-items: center;">
+        <button type="button" style="padding:4px" id="file" ><i class="ri-folder-upload-fill ri-2x" style="padding: 5px;margin: 0; box-sizing: border-box;"></i></button>
+        <span><input type="text" style="min-width:360px;height: 40px;margin: 0px;" id="input"></span>
+        <button style="border-style:1px solid grey; color: grey;background-color:white;padding: 13px 2px;" id="creat-card"> Add list</button>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
